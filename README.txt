@@ -65,3 +65,6 @@ the GitHub comments section once Utterances is installed.
 IMPORTANT
 Do not rename the products folder or the review HTML files. Keeping those names
 preserves the existing page addresses.
+
+PRIVACY UPDATE
+The public contact section no longer displays the destination email address.
