@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="title desc">
+<title id="title">Faizer's Best Finds</title>
+<desc id="desc">FD monogram in royal blue and white with Faizer's Best Finds wordmark.</desc>
+<rect width="520" height="120" rx="20" fill="#050505"/>
+<g transform="translate(24 18)">
+  <path d="M0 0h70v18H20v18h42v18H20v30H0z" fill="#fff"/>
+  <path d="M48 0h30c28 0 46 16 46 42s-18 42-46 42H48V66h29c16 0 27-8 27-24S93 18 77 18H48z" fill="#1746d1"/>
+  <path d="M48 36h39v18H48z" fill="#1746d1"/>
+</g>
+<text x="170" y="52" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" letter-spacing="2">FAIZER'S</text>
+<text x="170" y="86" fill="#4f7cff" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" letter-spacing="3">BEST FINDS</text>
+</svg>
