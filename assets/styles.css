@@ -46,3 +46,38 @@ a{color:inherit}.container{width:min(1180px,calc(100% - 34px));margin:auto}
 .comments-shell{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.comments-shell h3{margin-top:0}.comments-help{background:#fff6dc;border:1px solid #f0d783;padding:12px;border-radius:10px;font-size:.9rem}
 @media(max-width:900px){.hero-grid,.about-grid,.contact-grid,.review-hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.trust-grid{grid-template-columns:repeat(2,1fr)}.hero-collage{max-width:650px}.footer-grid{grid-template-columns:1fr}.nav-links{display:none}.mobile-toggle{display:block}.nav-links.open{display:flex;position:absolute;top:78px;left:0;right:0;flex-direction:column;align-items:flex-start;padding:20px;background:#050505}}
 @media(max-width:600px){.grid,.review-grid,.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.trust-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.section{padding:54px 0}.hero{padding:58px 0}.hero-collage{grid-template-columns:repeat(2,1fr)}.logo img{width:220px}.card img{height:220px}}
+
+
+/* HOMEPAGE CORRECTION — clean black, white and royal blue layout */
+.site-header{background:#050505!important;border-bottom:1px solid #202020!important}
+.nav{min-height:76px!important}
+.brand-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.fd-icon{width:58px;height:44px;display:flex;align-items:center;justify-content:center;position:relative;font-weight:950;font-size:1.65rem;letter-spacing:-.2em}
+.fd-icon span:first-child{color:#fff;transform:translateX(3px)}
+.fd-icon span:last-child{color:#1746d1;transform:translateX(-3px)}
+.brand-words{display:flex;flex-direction:column;line-height:1}
+.brand-words strong{color:#fff;font-size:1rem;letter-spacing:.16em}
+.brand-words small{color:#5f86ff;font-size:.72rem;font-weight:900;letter-spacing:.18em;margin-top:5px}
+.hero{background:#fff!important;color:#111!important;padding:72px 0 66px!important;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid!important;grid-template-columns:1.02fr .98fr!important;gap:54px!important;align-items:center!important}
+.hero-copy{padding:10px 0}
+.hero h1{font-size:clamp(3.1rem,7vw,6.2rem)!important;line-height:.94!important;letter-spacing:-.06em!important;margin:.18em 0!important;max-width:760px}
+.hero h1 span{color:#1746d1!important}
+.hero p{color:#4d5564!important;max-width:650px!important;font-size:1.12rem!important}
+.featured-stack{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:14px}
+.feature-tile{position:relative;display:flex;align-items:center;justify-content:center;min-height:210px;background:#fff;border:1px solid #e2e5ec;border-radius:22px;overflow:hidden;box-shadow:0 18px 45px rgba(20,30,60,.10);text-decoration:none;padding:14px}
+.feature-tile.feature-large{grid-row:1 / 3;min-height:440px}
+.feature-tile img{width:100%;height:100%;max-height:390px;object-fit:contain}
+.feature-tile span{position:absolute;left:14px;bottom:14px;background:#050505;color:#fff;border-radius:999px;padding:8px 12px;font-size:.78rem;font-weight:900}
+.trust-strip{background:#f8f9fc!important}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr!important}
+  .featured-stack{max-width:720px}
+}
+@media(max-width:620px){
+  .featured-stack{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .feature-tile.feature-large{grid-column:1 / 3;grid-row:auto;min-height:300px}
+  .feature-tile{min-height:170px}
+  .brand-words strong{font-size:.86rem}
+  .brand-words small{font-size:.62rem}
+}

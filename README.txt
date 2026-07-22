@@ -1,3 +1,16 @@
+IMPORTANT HOMEPAGE FIX
+
+The previous screenshot showed that the new index.html was using the OLD stylesheet.
+For this correction, upload the COMPLETE contents of this folder, especially:
+
+index.html
+assets/styles.css
+assets/script.js
+assets/images/
+products/
+
+Do not upload only index.html. The homepage design depends on the matching stylesheet.
+
 FAIZER'S BEST FINDS — ROYAL BLUE WEBSITE UPDATE
 
 WHAT IS PRESERVED
